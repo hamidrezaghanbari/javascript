@@ -172,12 +172,12 @@ export const faIR: LocalizationResource = {
     title: 'ایجاد سازمان',
   },
   dates: {
-    lastDay: "دیروز در {{ date | timeString('en-US') }}",
-    next6Days: "{{ date | weekday('en-US','long') }} at {{ date | timeString('en-US') }}",
-    nextDay: "فردا در {{ date | timeString('en-US') }}",
-    numeric: "{{ date | numeric('en-US') }}",
-    previous6Days: "آخرین {{ date | weekday('en-US','long') }} در {{ date | timeString('en-US') }}",
-    sameDay: "امروز در {{ date | timeString('en-US') }}",
+    lastDay: "دیروز ساعت {{ date | timeString('fa-IR') }}",
+    next6Days: "{{ date | weekday('fa-IR','long') }} ساعت {{ date | timeString('fa-IR') }}",
+    nextDay: "فردا ساعت {{ date | timeString('fa-IR') }}",
+    numeric: "{{ date | numeric('fa-IR') }}",
+    previous6Days: "آخرین {{ date | weekday('fa-IR','long') }} ساعت {{ date | timeString('fa-IR') }}",
+    sameDay: "امروز ساعت {{ date | timeString('fa-IR') }}",
   },
   dividerText: 'یا',
   footerActionLink__alternativePhoneCodeProvider: 'به جای آن، کد را از طریق پیامک ارسال کنید',
@@ -311,9 +311,9 @@ export const faIR: LocalizationResource = {
       subscriptionsListSection: {
         actionLabel__newSubscription: 'در یک طرح مشترک شوید',
         actionLabel__switchPlan: 'تغییر طرح',
-        tableHeader__edit: undefined,
-        tableHeader__plan: undefined,
-        tableHeader__startDate: undefined,
+        tableHeader__edit: 'ویرایش',
+        tableHeader__plan: 'طرح',
+        tableHeader__startDate: 'تاریخ شروع',
         title: 'اشتراک',
       },
       subscriptionsSection: {
@@ -437,7 +437,7 @@ export const faIR: LocalizationResource = {
       profileSection: {
         primaryButton: 'به روز رسانی نمایه',
         title: 'نمایه سازمان',
-        uploadAction__title: 'Logo',
+        uploadAction__title: 'لوگو',
       },
     },
     verifiedDomainPage: {
@@ -607,7 +607,7 @@ export const faIR: LocalizationResource = {
       },
       failed: {
         subtitle: 'برای ادامه به برگه اصلی برگردید.',
-        title: 'ین لینک تایید نامعتبر است',
+        title: 'این لینک تایید نامعتبر است',
       },
       formSubtitle: 'از لینک تایید ارسال شده به ایمیلتان استفاده کنید',
       formTitle: 'لینک تأیید',
@@ -930,7 +930,7 @@ export const faIR: LocalizationResource = {
     backupCodePage: {
       actionLabel__copied: 'کپی شده!',
       actionLabel__copy: 'کپی همه',
-      actionLabel__download: 'Download .txt',
+      actionLabel__download: 'دانلود .txt',
       actionLabel__print: 'چاپ',
       infoText1: 'کدهای پشتیبان برای این حساب فعال خواهند شد.',
       infoText2:
@@ -1179,8 +1179,8 @@ export const faIR: LocalizationResource = {
       },
       emailAddressesSection: {
         destructiveAction: 'ایمیل را حذف کنید',
-        detailsAction__nonPrimary: 'به عنوان اصلی تنظیم کنید',
-        detailsAction__primary: 'تایید کامل',
+        detailsAction__nonPrimary: 'به‌عنوان اصلی تنظیم کنید',
+        detailsAction__primary: 'اصلی',
         detailsAction__unverified: 'تأیید',
         primaryButton: 'آدرس ایمیل را اضافه کنید',
         title: 'آدرس های ایمیل',
